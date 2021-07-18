@@ -35,3 +35,14 @@ const studen = [
         grade: 86
     }  
 ];
+
+for (let i = 0; i < studen.length; i++){
+    let stu = studen[i];
+    console.log(`${stu.firstName} scored ${stu.grade}`);
+}
+
+//example for with string
+const word = 'stressed';
+for (let i= word.length -1; i>=0; i--){
+    console.log(word[i]);
+}
