@@ -61,7 +61,7 @@ for (let i=0; i<6;i++){
 } */
 
 //nested loops for
-const gameBoard = [
+/* const gameBoard = [
     [4,32,8,4],
     [64,8,32,2],
     [5,32,5,7],
@@ -74,3 +74,14 @@ for (let i = 0; i < gameBoard.length; i++){
         console.log(row[j]);
     }
 }
+ */
+//While example
+
+/* const target = Math.floor(Math.random() * 10);
+let guess = Math.floor(Math.random() * 10);
+while (guess !== target) {
+    console.log(`Target: ${target} Guess: ${guess}`);
+    guess = Math.floor(Math.random() * 10); 
+}
+console.log(`Target: ${target} Guess: ${guess}`);
+console.log (`Congrats`) */
